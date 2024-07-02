@@ -1,0 +1,694 @@
+2024-07-02 13:57:36.037 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - Starting PrivacyBackApplication using Java 22 with PID 28080 (C:\companyProject\privacy-back\build\classes\java\main started by dkcns in C:\companyProject\privacy-back)
+2024-07-02 13:57:36.042 [restartedMain] DEBUG com.example.privacyback.PrivacyBackApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02 13:57:36.044 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-02 13:57:36.179 [restartedMain]  INFO org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\dkcns\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\21.9.0.0\1aad2e20684ee075bb9ebdca2d83f028e4fd35fa\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/dkcns/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/21.9.0.0/1aad2e20684ee075bb9ebdca2d83f028e4fd35fa/oraclepki.jar
+2024-07-02 13:57:36.180 [restartedMain]  INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-02 13:57:36.180 [restartedMain]  INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-02 13:57:38.658 [restartedMain]  INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-02 13:57:38.883 [restartedMain]  INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 193 ms. Found 1 JPA repository interface.
+2024-07-02 13:57:41.360 [restartedMain]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-02 13:57:41.399 [restartedMain]  INFO org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-02 13:57:41.406 [restartedMain]  INFO org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-02 13:57:41.407 [restartedMain]  INFO org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02 13:57:41.684 [restartedMain]  INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2024-07-02 13:57:41.687 [restartedMain]  INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5503 ms
+2024-07-02 13:57:42.200 [restartedMain]  INFO org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-02 13:57:42.456 [restartedMain]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-02 13:57:42.609 [restartedMain]  INFO org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-02 13:57:43.996 [restartedMain]  INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-02 13:57:44.130 [restartedMain]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Starting...
+2024-07-02 13:57:44.966 [restartedMain]  INFO com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Added connection ConnectionID:1 ClientConnectionId: 6f8a05b0-33c5-45e3-b9c1-464f1712dfe6
+2024-07-02 13:57:44.973 [restartedMain]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Start completed.
+2024-07-02 13:57:45.074 [restartedMain]  WARN org.hibernate.orm.deprecation - HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-02 13:57:45.077 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Before cleanup stats (total=1, active=1, idle=0, waiting=0)
+2024-07-02 13:57:45.078 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - After cleanup  stats (total=1, active=1, idle=0, waiting=0)
+2024-07-02 13:57:45.122 [HyoHikariCP connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Added connection ConnectionID:2 ClientConnectionId: 08d837b2-3349-480e-a99b-87cbc191e0dd
+2024-07-02 13:57:45.167 [HyoHikariCP connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-07-02 13:57:45.199 [HyoHikariCP connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Added connection ConnectionID:3 ClientConnectionId: b599c5f5-4e48-4559-b243-ba188de3b01c
+2024-07-02 13:57:45.243 [HyoHikariCP connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-07-02 13:57:45.270 [HyoHikariCP connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Added connection ConnectionID:4 ClientConnectionId: 9ac3c97f-e7fa-47e7-80e6-487ad3de874a
+2024-07-02 13:57:45.303 [HyoHikariCP connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-07-02 13:57:45.335 [HyoHikariCP connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Added connection ConnectionID:5 ClientConnectionId: fa1dcc44-ed99-41dd-a117-e62e7531f76e
+2024-07-02 13:57:45.379 [HyoHikariCP connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-07-02 13:57:45.379 [HyoHikariCP connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Connection not added, stats (total=5, active=0, idle=5, waiting=0)
+2024-07-02 13:57:47.900 [restartedMain]  INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-02 13:57:48.036 [restartedMain]  INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-02 13:57:48.252 [restartedMain]  WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-02 13:57:49.522 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2024-07-02 13:57:49.548 [restartedMain]  INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-07-02 13:57:49.549 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2024-07-02 13:57:49.550 [restartedMain]  INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2024-07-02 13:57:49.550 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2024-07-02 13:57:49.551 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2024-07-02 13:57:49.551 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2024-07-02 13:57:49.551 [restartedMain]  INFO org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@73d3a148
+2024-07-02 13:57:49.657 [restartedMain]  INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-02 13:57:49.690 [restartedMain]  INFO org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-02 13:57:49.762 [restartedMain]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/api'
+2024-07-02 13:57:49.767 [restartedMain]  INFO org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2024-07-02 13:57:49.767 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2024-07-02 13:57:49.785 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - Started PrivacyBackApplication in 15.642 seconds (process running for 17.795)
+2024-07-02 13:57:49.808 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:57:49.809 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:57:49.809 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:57:49.809 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:57:52.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:57:52.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:57:52.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:57:52.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:57:55.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:57:55.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:57:55.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:57:55.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:57:58.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:57:58.785 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:57:58.786 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:57:58.786 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:01.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:01.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:01.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:01.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:04.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:04.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:04.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:04.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:07.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:07.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:07.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:07.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:10.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:10.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:10.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:10.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:13.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:13.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:13.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:13.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:15.084 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-07-02 13:58:15.084 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-07-02 13:58:15.085 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-02 13:58:16.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:16.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:16.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:16.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:19.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:19.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:19.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:19.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:22.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:22.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:22.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:22.785 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:25.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:25.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:25.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:25.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:28.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:28.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:28.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:28.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:31.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:31.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:31.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:31.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:34.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:34.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:34.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:34.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:37.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:37.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:37.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:37.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:40.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:40.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:40.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:40.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:43.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:43.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:43.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:43.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:45.085 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-07-02 13:58:45.085 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-07-02 13:58:45.086 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-02 13:58:46.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:46.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:46.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:46.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:49.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:49.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:49.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:49.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:52.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:52.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:52.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:52.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:55.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:55.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:55.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:55.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:58:58.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:58:58.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:58:58.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:58:58.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:01.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:01.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:01.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:01.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:04.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:04.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:04.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:04.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:07.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:07.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:07.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:07.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:10.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:10.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:10.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:10.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:13.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:13.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:13.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:13.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:15.088 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-07-02 13:59:15.088 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-07-02 13:59:15.088 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-02 13:59:16.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:16.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:16.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:16.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:19.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:19.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:19.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:19.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:22.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:22.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:22.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:22.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:25.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:25.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:25.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:25.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:28.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:28.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:28.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:28.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:31.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:31.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:31.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:31.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:34.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:34.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:34.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:34.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:37.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:37.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:37.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:37.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:40.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:40.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:40.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:40.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:43.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:43.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:43.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:43.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:45.089 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-07-02 13:59:45.089 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-07-02 13:59:45.089 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-02 13:59:46.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:46.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:46.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:46.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:49.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:49.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:49.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:49.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:52.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:52.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:52.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:52.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:55.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:55.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:55.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:55.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 13:59:58.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 13:59:58.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 13:59:58.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 13:59:58.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 14:00:01.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 14:00:01.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 14:00:01.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 14:00:01.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 14:00:04.785 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 14:00:04.785 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 14:00:04.785 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 14:00:04.785 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 14:00:07.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 14:00:07.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 14:00:07.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 14:00:07.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 14:00:10.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 14:00:10.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 14:00:10.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 14:00:10.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 14:00:13.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 14:00:13.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 14:00:13.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 14:00:13.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 14:00:15.092 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2024-07-02 14:00:15.092 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2024-07-02 14:00:15.092 [HyoHikariCP housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-07-02 14:00:16.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 14:00:16.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 14:00:16.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 14:00:16.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 14:00:19.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 14:00:19.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 14:00:19.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 14:00:19.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 14:00:22.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 14:00:22.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 14:00:22.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 14:00:22.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 14:00:25.783 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 14:00:25.783 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 14:00:25.783 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 14:00:25.783 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 14:00:28.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 14:00:28.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 14:00:28.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 14:00:28.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 14:00:31.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 14:00:31.784 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 14:00:31.784 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 14:00:31.784 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 14:00:34.784 [scheduling-1] DEBUG com.example.privacyback.util.ScheduledTasks - 로그테스트 DEBUG
+2024-07-02 14:00:34.785 [scheduling-1]  INFO com.example.privacyback.util.ScheduledTasks - 로그테스트 INFO
+2024-07-02 14:00:34.785 [scheduling-1]  WARN com.example.privacyback.util.ScheduledTasks - 로그테스트 WARN
+2024-07-02 14:00:34.785 [scheduling-1] ERROR com.example.privacyback.util.ScheduledTasks - 로그테스트 ERROR
+2024-07-02 14:00:35.982 [File Watcher]  INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-07-02 14:00:35.987 [Thread-5]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-07-02 14:00:35.991 [Thread-5]  INFO org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-02 14:00:36.005 [Thread-5]  INFO org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2024-07-02 14:00:36.005 [Thread-5]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2024-07-02 14:00:36.005 [Thread-5]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-07-02 14:00:36.006 [Thread-5]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2024-07-02 14:00:36.006 [Thread-5]  INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-02 14:00:36.013 [Thread-5]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Shutdown initiated...
+2024-07-02 14:00:36.014 [Thread-5] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2024-07-02 14:00:36.019 [Thread-5] DEBUG com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-07-02 14:00:36.019 [Thread-5]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Shutdown completed.
+2024-07-02 14:23:21.144 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - Starting PrivacyBackApplication using Java 22 with PID 27040 (C:\companyProject\privacy-back\build\classes\java\main started by dkcns in C:\companyProject\privacy-back)
+2024-07-02 14:23:21.149 [restartedMain] DEBUG com.example.privacyback.PrivacyBackApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02 14:23:21.150 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - No active profile set, falling back to 1 default profile: "local"
+2024-07-02 14:23:21.272 [restartedMain]  INFO org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\dkcns\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\21.9.0.0\1aad2e20684ee075bb9ebdca2d83f028e4fd35fa\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/dkcns/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/21.9.0.0/1aad2e20684ee075bb9ebdca2d83f028e4fd35fa/oraclepki.jar
+2024-07-02 14:23:21.273 [restartedMain]  INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-02 14:23:21.273 [restartedMain]  INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-02 14:23:22.950 [restartedMain]  INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-02 14:23:23.052 [restartedMain]  INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2024-07-02 14:23:24.161 [restartedMain]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-02 14:23:24.175 [restartedMain]  INFO org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-02 14:23:24.177 [restartedMain]  INFO org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-02 14:23:24.178 [restartedMain]  INFO org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02 14:23:24.315 [restartedMain]  INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2024-07-02 14:23:24.315 [restartedMain]  INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3042 ms
+2024-07-02 14:23:24.632 [restartedMain]  INFO org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-02 14:23:24.781 [restartedMain]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-02 14:23:24.869 [restartedMain]  INFO org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-02 14:23:25.785 [restartedMain]  INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-02 14:23:25.882 [restartedMain]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Starting...
+2024-07-02 14:23:26.430 [restartedMain]  INFO com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Added connection ConnectionID:1 ClientConnectionId: 62f0c57a-8651-4164-91b4-56fc4abb3925
+2024-07-02 14:23:26.434 [restartedMain]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Start completed.
+2024-07-02 14:23:26.510 [restartedMain]  WARN org.hibernate.orm.deprecation - HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-02 14:23:28.917 [restartedMain]  INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-02 14:23:29.023 [restartedMain]  INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-02 14:23:29.708 [restartedMain]  WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-02 14:23:30.319 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2024-07-02 14:23:30.336 [restartedMain]  INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-07-02 14:23:30.336 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2024-07-02 14:23:30.337 [restartedMain]  INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2024-07-02 14:23:30.338 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2024-07-02 14:23:30.338 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2024-07-02 14:23:30.338 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2024-07-02 14:23:30.338 [restartedMain]  INFO org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5a4ede6d
+2024-07-02 14:23:30.418 [restartedMain]  INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-02 14:23:30.462 [restartedMain]  INFO org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-02 14:23:30.493 [restartedMain]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/api'
+2024-07-02 14:23:30.495 [restartedMain]  INFO org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2024-07-02 14:23:30.495 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2024-07-02 14:23:30.509 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - Started PrivacyBackApplication in 10.801 seconds (process running for 12.661)
+2024-07-02 14:25:22.652 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-07-02 14:25:22.668 [SpringApplicationShutdownHook]  INFO org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2024-07-02 14:25:22.668 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2024-07-02 14:25:22.668 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-07-02 14:25:22.669 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2024-07-02 14:25:22.670 [SpringApplicationShutdownHook]  INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-02 14:25:22.675 [SpringApplicationShutdownHook]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Shutdown initiated...
+2024-07-02 14:25:22.680 [SpringApplicationShutdownHook]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Shutdown completed.
+2024-07-02 14:25:31.109 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - Starting PrivacyBackApplication using Java 22 with PID 35292 (C:\companyProject\privacy-back\build\classes\java\main started by dkcns in C:\companyProject\privacy-back)
+2024-07-02 14:25:31.114 [restartedMain] DEBUG com.example.privacyback.PrivacyBackApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02 14:25:31.115 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - No active profile set, falling back to 1 default profile: "local"
+2024-07-02 14:25:31.247 [restartedMain]  INFO org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\dkcns\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\21.9.0.0\1aad2e20684ee075bb9ebdca2d83f028e4fd35fa\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/dkcns/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/21.9.0.0/1aad2e20684ee075bb9ebdca2d83f028e4fd35fa/oraclepki.jar
+2024-07-02 14:25:31.248 [restartedMain]  INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-02 14:25:31.248 [restartedMain]  INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-02 14:25:33.198 [restartedMain]  INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-02 14:25:33.346 [restartedMain]  INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interface.
+2024-07-02 14:25:34.841 [restartedMain]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-02 14:25:34.866 [restartedMain]  INFO org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-02 14:25:34.870 [restartedMain]  INFO org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-02 14:25:34.870 [restartedMain]  INFO org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02 14:25:35.050 [restartedMain]  INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2024-07-02 14:25:35.051 [restartedMain]  INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3802 ms
+2024-07-02 14:25:35.471 [restartedMain]  INFO org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-02 14:25:35.655 [restartedMain]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-02 14:25:35.779 [restartedMain]  INFO org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-02 14:25:36.784 [restartedMain]  INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-02 14:25:36.852 [restartedMain]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Starting...
+2024-07-02 14:25:37.404 [restartedMain]  INFO com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Added connection ConnectionID:1 ClientConnectionId: 18ddf7d7-c51e-47f4-9fb6-d526ee906109
+2024-07-02 14:25:37.408 [restartedMain]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Start completed.
+2024-07-02 14:25:37.485 [restartedMain]  WARN org.hibernate.orm.deprecation - HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-02 14:25:40.066 [restartedMain]  INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-02 14:25:40.175 [restartedMain]  INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-02 14:25:40.915 [restartedMain]  WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-02 14:25:41.733 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2024-07-02 14:25:41.760 [restartedMain]  INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-07-02 14:25:41.760 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2024-07-02 14:25:41.762 [restartedMain]  INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2024-07-02 14:25:41.764 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2024-07-02 14:25:41.764 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2024-07-02 14:25:41.764 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2024-07-02 14:25:41.764 [restartedMain]  INFO org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@74707f97
+2024-07-02 14:25:41.888 [restartedMain]  INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-02 14:25:41.936 [restartedMain]  INFO org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-02 14:25:41.995 [restartedMain]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/api'
+2024-07-02 14:25:41.999 [restartedMain]  INFO org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2024-07-02 14:25:41.999 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2024-07-02 14:25:42.021 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - Started PrivacyBackApplication in 12.262 seconds (process running for 13.936)
+2024-07-02 14:31:08.681 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-07-02 14:31:08.694 [SpringApplicationShutdownHook]  INFO org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2024-07-02 14:31:08.694 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2024-07-02 14:31:08.694 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-07-02 14:31:08.694 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2024-07-02 14:31:08.695 [SpringApplicationShutdownHook]  INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-02 14:31:08.702 [SpringApplicationShutdownHook]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Shutdown initiated...
+2024-07-02 14:31:08.705 [SpringApplicationShutdownHook]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Shutdown completed.
+2024-07-02 14:31:15.741 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - Starting PrivacyBackApplication using Java 22 with PID 19152 (C:\companyProject\privacy-back\build\classes\java\main started by dkcns in C:\companyProject\privacy-back)
+2024-07-02 14:31:15.745 [restartedMain] DEBUG com.example.privacyback.PrivacyBackApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02 14:31:15.746 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - No active profile set, falling back to 1 default profile: "local"
+2024-07-02 14:31:15.874 [restartedMain]  INFO org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\dkcns\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\21.9.0.0\1aad2e20684ee075bb9ebdca2d83f028e4fd35fa\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/dkcns/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/21.9.0.0/1aad2e20684ee075bb9ebdca2d83f028e4fd35fa/oraclepki.jar
+2024-07-02 14:31:15.874 [restartedMain]  INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-02 14:31:15.874 [restartedMain]  INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-02 14:31:17.579 [restartedMain]  INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-02 14:31:17.720 [restartedMain]  INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interface.
+2024-07-02 14:31:19.351 [restartedMain]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-02 14:31:19.377 [restartedMain]  INFO org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-02 14:31:19.381 [restartedMain]  INFO org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-02 14:31:19.381 [restartedMain]  INFO org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02 14:31:19.566 [restartedMain]  INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2024-07-02 14:31:19.568 [restartedMain]  INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3692 ms
+2024-07-02 14:31:19.937 [restartedMain]  INFO org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-02 14:31:20.143 [restartedMain]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-02 14:31:20.248 [restartedMain]  INFO org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-02 14:31:21.289 [restartedMain]  INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-02 14:31:21.380 [restartedMain]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Starting...
+2024-07-02 14:31:21.948 [restartedMain]  INFO com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Added connection ConnectionID:1 ClientConnectionId: 11a93aa9-f8e9-4cb9-9499-1125736bef32
+2024-07-02 14:31:21.952 [restartedMain]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Start completed.
+2024-07-02 14:31:22.027 [restartedMain]  WARN org.hibernate.orm.deprecation - HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-02 14:31:24.594 [restartedMain]  INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-02 14:31:24.628 [restartedMain] DEBUG org.hibernate.SQL - 
+    drop table if exists masking
+2024-07-02 14:31:24.681 [restartedMain] DEBUG org.hibernate.SQL - 
+    create table masking (
+        id int identity not null,
+        mk_nbr int not null,
+        primary key (id)
+    )
+2024-07-02 14:31:24.700 [restartedMain]  INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-02 14:31:25.293 [restartedMain]  WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-02 14:31:25.932 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2024-07-02 14:31:25.960 [restartedMain]  INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-07-02 14:31:25.960 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2024-07-02 14:31:25.961 [restartedMain]  INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2024-07-02 14:31:25.964 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2024-07-02 14:31:25.964 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2024-07-02 14:31:25.964 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2024-07-02 14:31:25.964 [restartedMain]  INFO org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@50b7a53
+2024-07-02 14:31:26.085 [restartedMain]  INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-02 14:31:26.127 [restartedMain]  INFO org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-02 14:31:26.157 [restartedMain]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/api'
+2024-07-02 14:31:26.160 [restartedMain]  INFO org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2024-07-02 14:31:26.160 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2024-07-02 14:31:26.174 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - Started PrivacyBackApplication in 11.839 seconds (process running for 13.524)
+2024-07-02 14:31:26.275 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:31:29.174 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:31:32.174 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:31:35.174 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:31:38.173 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:31:41.174 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:31:44.174 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:31:47.176 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:31:50.175 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:31:53.175 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:31:56.174 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:31:59.174 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:32:02.176 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:32:05.175 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:32:08.174 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:32:08.244 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-07-02 14:32:08.259 [SpringApplicationShutdownHook]  INFO org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2024-07-02 14:32:08.260 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2024-07-02 14:32:08.260 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-07-02 14:32:08.260 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2024-07-02 14:32:08.262 [SpringApplicationShutdownHook]  INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-02 14:32:08.270 [SpringApplicationShutdownHook]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Shutdown initiated...
+2024-07-02 14:32:08.276 [SpringApplicationShutdownHook]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Shutdown completed.
+2024-07-02 14:32:54.663 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - Starting PrivacyBackApplication using Java 22 with PID 10384 (C:\companyProject\privacy-back\build\classes\java\main started by dkcns in C:\companyProject\privacy-back)
+2024-07-02 14:32:54.667 [restartedMain] DEBUG com.example.privacyback.PrivacyBackApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02 14:32:54.668 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - No active profile set, falling back to 1 default profile: "local"
+2024-07-02 14:32:54.795 [restartedMain]  INFO org.springframework.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\dkcns\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\21.9.0.0\1aad2e20684ee075bb9ebdca2d83f028e4fd35fa\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/dkcns/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/21.9.0.0/1aad2e20684ee075bb9ebdca2d83f028e4fd35fa/oraclepki.jar
+2024-07-02 14:32:54.796 [restartedMain]  INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-02 14:32:54.796 [restartedMain]  INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-02 14:32:56.625 [restartedMain]  INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-02 14:32:56.781 [restartedMain]  INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133 ms. Found 1 JPA repository interface.
+2024-07-02 14:32:58.169 [restartedMain]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-02 14:32:58.195 [restartedMain]  INFO org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-02 14:32:58.200 [restartedMain]  INFO org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-02 14:32:58.201 [restartedMain]  INFO org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02 14:32:58.412 [restartedMain]  INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2024-07-02 14:32:58.413 [restartedMain]  INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3615 ms
+2024-07-02 14:32:58.887 [restartedMain]  INFO org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-02 14:32:59.112 [restartedMain]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-02 14:32:59.227 [restartedMain]  INFO org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-02 14:33:00.659 [restartedMain]  INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-02 14:33:00.793 [restartedMain]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Starting...
+2024-07-02 14:33:01.651 [restartedMain]  INFO com.zaxxer.hikari.pool.HikariPool - HyoHikariCP - Added connection ConnectionID:1 ClientConnectionId: 4895fac4-23f9-47a7-adb3-43cf002bd4d7
+2024-07-02 14:33:01.658 [restartedMain]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Start completed.
+2024-07-02 14:33:01.777 [restartedMain]  WARN org.hibernate.orm.deprecation - HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-02 14:33:04.864 [restartedMain]  INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-02 14:33:04.930 [restartedMain] DEBUG org.hibernate.SQL - 
+    drop table if exists masking
+2024-07-02 14:33:04.968 [restartedMain] DEBUG org.hibernate.SQL - 
+    create table masking (
+        id int identity not null,
+        mk_nbr int not null,
+        primary key (id)
+    )
+2024-07-02 14:33:04.986 [restartedMain]  INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-02 14:33:05.726 [restartedMain]  WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-02 14:33:06.516 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2024-07-02 14:33:06.550 [restartedMain]  INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-07-02 14:33:06.550 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2024-07-02 14:33:06.552 [restartedMain]  INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2024-07-02 14:33:06.554 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2024-07-02 14:33:06.554 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2024-07-02 14:33:06.554 [restartedMain]  INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2024-07-02 14:33:06.555 [restartedMain]  INFO org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5a4ede6d
+2024-07-02 14:33:06.699 [restartedMain]  INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-02 14:33:06.748 [restartedMain]  INFO org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-02 14:33:06.801 [restartedMain]  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/api'
+2024-07-02 14:33:06.805 [restartedMain]  INFO org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2024-07-02 14:33:06.805 [restartedMain]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2024-07-02 14:33:06.819 [restartedMain]  INFO com.example.privacyback.PrivacyBackApplication - Started PrivacyBackApplication in 13.288 seconds (process running for 14.854)
+2024-07-02 14:33:06.952 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:33:09.819 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:33:12.819 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:33:15.819 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:33:18.820 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:33:21.818 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:33:24.819 [scheduling-1] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        masking
+        (mk_nbr) 
+    values
+        (?)
+2024-07-02 14:33:27.797 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-07-02 14:33:27.817 [SpringApplicationShutdownHook]  INFO org.springframework.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2024-07-02 14:33:27.817 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2024-07-02 14:33:27.818 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-07-02 14:33:27.818 [SpringApplicationShutdownHook]  INFO org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2024-07-02 14:33:27.821 [SpringApplicationShutdownHook]  INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-02 14:33:27.829 [SpringApplicationShutdownHook]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Shutdown initiated...
+2024-07-02 14:33:27.836 [SpringApplicationShutdownHook]  INFO com.zaxxer.hikari.HikariDataSource - HyoHikariCP - Shutdown completed.
